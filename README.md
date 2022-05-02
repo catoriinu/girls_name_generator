@@ -30,4 +30,4 @@
 
 香取犬
 - Twitter：[@catoriinu8190](https://twitter.com/catoriinu8190)
-- ブログ：[ハイグレ郵便局 香取犬支店](http://highglepostoffice.blog.fc2.com/)）
+- ブログ：[ハイグレ郵便局 香取犬支店](http://highglepostoffice.blog.fc2.com/)
