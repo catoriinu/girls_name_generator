@@ -1,0 +1,44 @@
+﻿<html>
+  <head>
+    <meta charset="utf-8">
+    <title>女の子の名前ジェネレータ ver.reiwa_1.2</title>
+    <script type="text/javascript" src="nameList.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+  </head>
+  <body>
+    <script>disprayNamesAndCheckboxes("【2文字名】", "name2", 5, 5)</script>
+    <hr>
+    <script>disprayNamesAndCheckboxes("【3文字名】", "name3", 5, 5)</script>
+    <hr>
+    <table cellpadding="4">
+      <tr>
+        <td><input type="button"  value="チェック無しのみリロード" onclick="reloadNotCheckedIds()"></td>
+        <td><input type="button"  value="全てリロード" onclick="reloadAllName(true)"></td>
+        <td>TAKE <span id="reloadCount">0</span></td>
+      </tr>
+      <tr>
+        <td><input type="button"  value="全てのチェックを付ける" onclick="controllAllCheckbox(true)"></td>
+        <td><input type="button"  value="全てのチェックを外す" onclick="controllAllCheckbox(false)"></td>
+      </tr>
+    </table>
+    <b>女の子の名前ジェネレータ ver.reiwa_1.2</b><br>
+    女の子の名前として人気の2文字名約300件、3文字名約900件を<br>
+    それぞれ1、2、3文字目に分解し、その位置ごとにランダムで表示します。<br>
+    チェックをつけた名前は、「チェック無しのみリロード」時には保持されます。<br>
+    <br>
+    このスクリプトを用いて生成された名前は各自で自由に利用できます。<br>
+    また、生成された名前は実在の人物等とは一切関係ありません。<br>
+    作成者：香取犬◆RYenwqtp9Y（<a href="http://highglepostoffice.blog.fc2.com/">ハイグレ郵便局 香取犬支店</a>）<br>
+    <br>
+    <small>
+    【更新履歴】<br>
+    2019/08/17 ver.reiwa_1<br>
+    ・全面刷新して公開<br>
+    2019/08/18 ver.reiwa_1.1<br>
+    ・「全てリロード」時、チェックが一つでも入っている場合確認ポップアップを表示（OKでリロード実行）<br>
+    ・2文字名1文字目の名前リストの内容の不備を修正<br>
+    2019/11/02 ver.reiwa_1.2<br>
+    ・リロードボタンを押した合計回数を表示（このページ自体を再読み込みでリセット）
+    </small>
+  </body>
+</html>
